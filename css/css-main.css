@@ -2223,6 +2223,9 @@ body.loaded {
 }
 
 .skills-widget .skill-item .icon-box img {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
 	filter: grayscale(90%);
 	-webkit-filter: grayscale(90%);
 	-webkit-transition: 0.3s;
